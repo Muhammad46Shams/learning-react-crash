@@ -7,6 +7,9 @@ function App() {
 
   const addValue = () => {
     setCounter((preAdd) => preAdd === 20 ? 20 : preAdd = preAdd + 1)
+    setCounter((preAdd) => preAdd === 20 ? 20 : preAdd = preAdd + 1)
+    setCounter((preAdd) => preAdd === 20 ? 20 : preAdd = preAdd + 1)
+    setCounter((preAdd) => preAdd === 20 ? 20 : preAdd = preAdd + 1)
   }
 
   const removeValue = () => {
